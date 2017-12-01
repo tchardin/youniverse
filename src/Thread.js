@@ -57,7 +57,7 @@ const Thread = ({onSubmit}) => {
             <div className="media-content">
               <div className="content">
                 <p>
-                  <strong>Kayli Eunice </strong>
+                  <strong>Jenny Zhang</strong>
                   <br />
                   Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.
                   <br />

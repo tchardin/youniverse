@@ -1,0 +1,285 @@
+.App {
+  height: 100vh;
+  background-color: #FCFCFC;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.navbar {
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, .1);
+}
+
+.profile-icon {
+  height: 48px;
+  width: 48px;
+  background-color: grey;
+  border-radius: 100%;
+}
+
+.list-container {
+  max-width: 1185px;
+  margin: auto;
+  min-height: 101vh;
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.container-sidebar {
+  position: relative;
+  top: 0;
+  min-width: 395px;
+  z-index: 4;
+}
+
+.sidebar {
+  position: fixed;
+  top: 120px;
+  max-width: 300px;
+  margin: 0 1em 0 1em;
+}
+
+.box {
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, .1);
+  border-radius: 0;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 1.5em 0 0 0;
+  display: flex;
+  flex: 4;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.media {
+  margin-bottom: 2em;
+}
+
+.menu-list a.is-active {
+  background-color: #C0DEF0;
+}
+
+.button.is-info {
+  background-color: #C0DEF0;
+}
+
+.tag:not(body).is-info {
+  background-color: #C0DEF0;
+}
+
+
+input[type="checkbox"].ios8-switch {
+    position: relative;
+    padding: 5px 0 0 50px;
+    line-height: 2.0em;
+}
+input[type="checkbox"].ios8-switch:before {
+    content: "Public";
+    color: white;
+    font-size: 1.3em;
+    padding-left: 9px;
+    padding-top: 2px;
+    position: absolute;
+    display: block;
+    left: -1px;
+    top: -7px;
+    width: 80px; /* x*5 */
+    height: 28px; /* x*3 */
+    border-radius: 20px; /* x*2 */
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="checkbox"].ios8-switch:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: -1px;
+    top: -5px;
+    width: 24px; /* x*3 */
+    height: 24px; /* x*3 */
+    border-radius: 16px; /* x*2 */
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    margin-left: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="checkbox"].ios8-switch:hover:after {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+input[type="checkbox"].ios8-switch:checked:after {
+    margin-left: 56px;
+}
+input[type="checkbox"].ios8-switch:checked:before {
+    background: #C0DEF0;
+}
+
+.navbar-item img {
+  border-radius: 100%;
+  max-height: none;
+}
+
+.box img {
+  border-radius: 100%;
+}
+
+.user-li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.active-user {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border: solid black 1px;
+  border-radius: 100%;
+}
+
+.sleeping-user {
+  height: 10px;
+  width: 10px;
+  border: solid black 1px;
+  border-radius: 100%;
+}
+
+.search-container {
+  min-width: 700px;
+}
+
+.search-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.table {
+  margin: 2em 0;
+}
+
+.table td {
+  padding: 1em 0.75em;
+}
+
+.table th {
+  padding: 1em 0.75em;
+}
+
+
+
+.cross {
+  height: 20px;
+  width: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.line1 {
+  display: flex;
+  height: 3px;
+  background-color: black;
+  transform: rotate(45deg) translateX(12px);
+  border-radius: 2px;
+}
+
+.line2 {
+  display: flex;
+  height: 3px;
+  background-color: black;
+  transform: rotate(-45deg) translateX(12px);
+  border-radius: 2px;
+}
+
+.label {
+  padding: 0.5em;
+}
+
+.control .button {
+  margin-right: 1em;
+}
+
+input[type="checkbox"].main-switch {
+    position: relative;
+    padding: 5px 0 0 50px;
+    line-height: 2.0em;
+}
+input[type="checkbox"].main-switch:before {
+    content: "Get Inspired";
+    color: white;
+    font-size: 1.3em;
+    padding-left: 24px;
+    padding-top: 2px;
+    position: absolute;
+    display: block;
+    left: -1px;
+    top: -7px;
+    width: 120px; /* x*5 */
+    height: 28px; /* x*3 */
+    border-radius: 35px; /* x*2 */
+    background: #E180A0;
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="checkbox"].main-switch:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: -1px;
+    top: -5px;
+    width: 24px; /* x*3 */
+    height: 24px; /* x*3 */
+    border-radius: 16px; /* x*2 */
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    margin-left: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="checkbox"].main-switch:hover:after {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+input[type="checkbox"].main-switch:checked:after {
+    margin-left: 96px;
+}
+input[type="checkbox"].main-switch:checked:before {
+    background: #C0DEF0;
+    content: "Take Action";
+    padding-left: 9px;
+}
+
+.suggestion-head {
+  padding-left: 0.5em;
+}
+
+.footer {
+  margin-top: 200px;
+}
+
+.space {
+  width: 1em;
+}
+
+.media-left img {
+  border-radius: 100%;
+}
